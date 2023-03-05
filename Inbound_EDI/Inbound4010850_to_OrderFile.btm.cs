@@ -154,6 +154,8 @@ public bool IsNumeric(string val, ref double d)
 ]]></msxsl:script>
 </xsl:stylesheet>";
         
+        private const int _useXSLTransform = 0;
+        
         private const string _strArgList = @"<ExtensionObjects />";
         
         private const string _strSrcSchemasList0 = @"Inbound_EDI.X12_00401_850";
@@ -167,6 +169,12 @@ public bool IsNumeric(string val, ref double d)
         public override string XmlContent {
             get {
                 return _strMap;
+            }
+        }
+        
+        public override int UseXSLTransform {
+            get {
+                return _useXSLTransform;
             }
         }
         

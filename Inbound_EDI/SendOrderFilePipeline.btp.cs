@@ -34,7 +34,7 @@ namespace Inbound_EDI
 "Method=\"All\" stageId=\"9d0e4108-4cce-4536-83fa-4a5040674ad6\" />      <Components />    </Stage>  </St"+
 "ages></Document>";
         
-        private const string _versionDependentGuid = "7b6bc1a3-b15e-44c9-837a-8e3dea9353fd";
+        private const string _versionDependentGuid = "f7c1edc5-3de1-4a32-8f37-4a2834e4eaf5";
         
         public SendOrderFilePipeline()
         {
